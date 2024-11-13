@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    text-align: center;
+}
+h1{
+    
+    font-size: 2rem;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+.container{
+    height:95vh;
+    width:70vw;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-left: 15vw;
+    margin-top: 7vh;
+    
+    
+    
+}
+.calci{
+    height:84vmin;
+    width:53vmin;
+    background-color: rgb(36, 34, 34);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    border:1px transparent white;
+    border-radius: 1vmin;
+
+}
+.display{
+    height:12vmin;
+    width:45vmin;
+    
+    
+}
+#screen{
+    height:12vmin;
+    width:45vmin;
+    font-size:6vmin;
+    color:rgb(36, 34, 34);
+    border:1px solid black;
+    border-radius:2vmin;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 
+    0 -4px 8px rgba(19, 19, 19, 0.1);
+    background-color: #e5dfdf;  
+    padding: 0 1vmin;
+    text-align: right;   
+}
+.btns{
+    height: 65vmin;
+    width:50vmin;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(36, 34, 34);
+    gap:3%;
+}
+button{
+    height:8vmin;
+    width:8vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size:3vmin;
+    border-radius: 10px;
+    background-color: #e1dcdc;  
+    
+
+}
+button {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+button:hover {
+    background-color: #b6b2b2;
+    transform: scale(1.05);
+}
